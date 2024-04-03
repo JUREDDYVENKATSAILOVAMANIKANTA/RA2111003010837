@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+/* Background Colors */
+.bg-slate-900 {
+  background-color: #1F2937;
+}
+
+.bg-slate-800 {
+  background-color: #2D3748;
+}
+
+.bg-slate-200 {
+  background-color: #b1bac4;
+}
+
+/* Font Size */
+.themes {
+  font-size: x-large;
+}
+
+/* Card Background */
+.cardbg {
+  background-color: #2D3748;
+}
+
+/* Width */
+.paddinglr {
+  width: 100%;
+}
+
+/* Height */
+.h-full {
+  height: 100vh;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+/* Hover Effect */
+.hover:hover {
+  color: #009ffd;
+}
+
+/* Menu Bar */
+.menubar {
+  border: #979393 1px solid;
+  padding: 3px;
+  border-radius: 6px;
+  font-size: x-large;
+}
+
+/* Responsive Menu */
+.resmenu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+/* Width */
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mainmenu {
+  margin-left: 20px;
+}
+
+/* Body */
+body {
+  font-family: 'Anton', sans-serif !important;
+  color: var(--mainDark) !important;
+}
+
+/* Text Styles */
+.text-title {
+  font-family: 'Anton', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+/* Button Styles */
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: var(--mainDark);
+  border-radius: 0;
+  border: 0.1rem solid var(--mainDark);
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+/* Cart Icon */
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
